@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Sunshiney&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Sunshiney|Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sunshiney|Wallpoet&display=swap');
+
+
+body {
+  background-color: #cefffc;
+  font-family: 'Wallpoet', cursive;
+  color: red;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+p {
+  font-size: 20px;
+  line-height: 25px
+}
+
+h1 {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  color: blue;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+h2 {
+  font-family: 'Sunshiney', cursive;
+  color: green;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+a:hover {
+  color: green;
+  text-decoration: black;
+}
+
+.white-card {
+  text-align: center;
+  padding : 40px 30px;
+  margin: 30px 150px;
+  background: white;
+  border: black;
+  box-shadow: 5px 10px;
+  border-radius: 8px;
+}
+
+.img-circle{
+  border-radius: 50px;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
