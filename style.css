@@ -61,7 +61,7 @@ a:hover {
   background-position: 600px;
   /* text-align: center; */
   padding : 40px 30px;
-  margin: 30px 120px;
+  margin: 30px 40px;
   border: black;
   border-width: 30px;
   box-shadow: -8px 8px;
@@ -75,7 +75,7 @@ a:hover {
 .white-card2 {
   text-align: center;
   padding : 40px 30px;
-  margin: 30px 120px;
+  margin: 30px 40px;
   background: white;
   border: black;
   box-shadow: -8px 8px;
