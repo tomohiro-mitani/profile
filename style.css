@@ -13,8 +13,10 @@ body {
   font-weight: 300;
 }
 
-container {
-  width: 940px;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 p {
