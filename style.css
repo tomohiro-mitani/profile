@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Sunshiney&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Sunshiney|Wallpoet&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Sunshiney|Wallpoet&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
 body {
-  background-color: #cefffc;
+  background-color: white;
   font-family: 'Wallpoet', cursive;
-  color: red;
+  color: #eff0f2;
   font-size: 20px;
   line-height: 25px;
   font-weight: 300;
+}
+
+container {
+  width: 940px;
 }
 
 p {
@@ -18,32 +23,57 @@ p {
 }
 
 h1 {
-  font-family: 'Liu Jian Mao Cao', cursive;
-  color: blue;
+  font-family: 'Ubuntu', sans-serif;
+  color: #59499a;
   font-size: 30px;
   line-height: 35px;
 }
 
+.white-card1 h2 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #59499a;
+  font-size: 16px;
+  line-height: 20px;
+}
+
 h2 {
-  font-family: 'Sunshiney', cursive;
-  color: green;
+  font-family: 'Ubuntu', sans-serif;
+  color: #59499a;
   font-size: 25px;
   line-height: 30px;
 }
 
 a:hover {
-  color: green;
+  color: #59499a;
   text-decoration: black;
 }
 
-.white-card {
+.white-card1 {
+  background-image: url("./images/background_surf.jpg");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: 270px;
+  /* text-align: center; */
+  padding : 40px 30px;
+  margin: 30px 150px;
+  border: black;
+  border-width: 30px;
+  box-shadow: -8px 8px;
+  border-radius: 20px;
+}
+
+.profile-pic {
+  margin: 10px 50px;
+}
+
+.white-card2 {
   text-align: center;
   padding : 40px 30px;
   margin: 30px 150px;
   background: white;
   border: black;
-  box-shadow: 5px 10px;
-  border-radius: 8px;
+  box-shadow: -8px 8px;
+  border-radius: 20px;
 }
 
 .img-circle{
