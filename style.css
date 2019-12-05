@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Sunshiney&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Sunshiney|Wallpoet&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Sunshiney|Wallpoet&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 
 body {
-  background-color: white;
-  font-family: 'Roboto', sans-serif;
+  background-color: #cefffc;
+  font-family: 'Wallpoet', cursive;
+  color: red;
   font-size: 20px;
   line-height: 25px;
   font-weight: 300;
@@ -17,13 +18,15 @@ p {
 }
 
 h1 {
-  color: black;
+  font-family: 'Liu Jian Mao Cao', cursive;
+  color: blue;
   font-size: 30px;
   line-height: 35px;
 }
 
 h2 {
-  color: black;
+  font-family: 'Sunshiney', cursive;
+  color: green;
   font-size: 25px;
   line-height: 30px;
 }
@@ -33,35 +36,14 @@ a:hover {
   text-decoration: black;
 }
 
-.profile_image{
-  padding : 40px 30px;
-  margin: 30px 120px 30px 100px;
-}
-
-.topnav{
-  background-image: linear-gradient(0deg, #13336d, #2359b9);
-}
-
 .white-card {
-  text-align: left;
+  text-align: center;
   padding : 40px 30px;
-  margin: 30px 800px 30px 100px;
+  margin: 30px 150px;
   background: white;
   border: black;
+  box-shadow: 5px 10px;
   border-radius: 8px;
-}
-
-.white-card-border {
-  text-align: left;
-  padding : 0px 30px;
-  margin: 30px 800px 30px 100px;
-  background: white;
-  border-style: solid;
-}
-
-.contact{
-  background-color: #6799ca;
-  color: white;
 }
 
 .img-circle{
@@ -74,6 +56,7 @@ a:hover {
 }
 
 .list-inline > li {
+  display: inline-block;
   padding: 0px 20px;
 }
 
