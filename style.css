@@ -65,7 +65,7 @@ a:hover {
 }
 
 .white-card {
-  padding : 40px 60px;
+  padding : 40px 0px 40px 40px;
   margin: 30px 20px;
   border: black;
   box-shadow: -8px 8px;
