@@ -20,7 +20,6 @@ body {
 }
 
 .cards {
-  margin: 0px 0px
 }
 
 p {
@@ -54,29 +53,20 @@ a:hover {
   text-decoration: black;
 }
 
-.white-card1 {
+.bgimg {
   background-image: url("./images/background_surf.jpg");
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
   background-position: 600px;
-  /* text-align: center; */
-  padding : 40px 30px;
-  margin: 30px 40px;
-  border: black;
-  border-width: 30px;
-  box-shadow: -8px 8px;
-  border-radius: 20px;
+  background-size: 60%;
 }
 
 .profile-pic {
   margin: 10px 50px;
 }
 
-.white-card2 {
-  text-align: center;
-  padding : 40px 30px;
+.white-card {
+  padding : 40px 60px;
   margin: 30px 40px;
-  background: white;
   border: black;
   box-shadow: -8px 8px;
   border-radius: 20px;
@@ -93,5 +83,5 @@ a:hover {
 
 .list-inline > li {
   display: inline-block;
-  padding: 0px 30px;
+  padding: 0px 20px;
 }
